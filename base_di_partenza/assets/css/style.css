@@ -40,6 +40,51 @@ body {
   width: 100%;
 }
 
+.mw {
+  width: 100%;
+}
+
+.trendArtBord {
+  padding-inline: 16px;
+  flex-grow: 0;
+}
+
+.tad {
+  margin-bottom: 24px;
+  align-items: flex-start;
+  display: flex;
+  height: 100%;
+  width: 40px;
+  margin-bottom: 24px;
+}
+
+.mw33 {
+  max-width: 33.33%;
+}
+
+.thumbnail {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  vertical-align: middle;
+  aspect-ratio: 20 / 20;
+}
+
+.snl {
+  width: 40px;
+  flex: 0 0 auto;
+  position: relative;
+  top: -10px;
+  margin-right: 16px;
+}
+
+.trendspannum {
+  color: #f2f2f2;
+  letter-spacing: -0.014em;
+  line-height: 38px;
+  font-size: 32px;
+}
+
 .bodyMargin {
   padding: 0 64px;
 }
@@ -50,6 +95,10 @@ body {
 .rowDirection {
   display: flex;
   flex-direction: row;
+}
+
+.spaceBetDir {
+  justify-content: space-between;
 }
 
 .justifyCenter {
@@ -175,4 +224,37 @@ button:hover {
 
 .middleAlign {
   vertical-align: middle;
+}
+.middleItems {
+  align-items: center;
+}
+
+.username {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.mainTitleArticle {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dateOfRelease {
+  color: #757575;
+}
+
+.wrapArticles {
+  flex-wrap: wrap;
+}
+
+.mainArticleMaxWidth {
+  width: 33.333%;
+  margin-bottom: 20px;
+}
+
+.trendingLogoMargin {
+  margin-left: 20px;
+  margin-block-end: 1.33em;
 }
