@@ -26,6 +26,10 @@ body {
   border-bottom: 1px solid #f2f2f2;
 }
 
+.lightBordTop {
+  border-top: 1px solid #f2f2f2;
+}
+
 .logoHeight {
   height: 25px;
 }
@@ -106,6 +110,10 @@ body {
   justify-content: center;
 }
 
+.jusEnd {
+  justify-content: flex-end;
+}
+
 .endDirection {
   justify-content: flex-end;
 }
@@ -146,6 +154,10 @@ button:hover {
   cursor: pointer;
 }
 
+.bmr {
+  margin-right: 80px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -166,6 +178,7 @@ button:hover {
 .matrix {
   position: absolute;
   right: 0;
+  max-width: 550px;
 }
 
 .h1FS {
