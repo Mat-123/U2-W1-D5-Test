@@ -29,6 +29,11 @@ body {
 
 .zindex3 {
   z-index: 3;
+  transition: 0.2s all linear;
+}
+
+.z-index3.alt-color {
+  background-color: white;
 }
 
 .zindex2 {
@@ -83,6 +88,11 @@ body {
 
 .yBG {
   background-color: #febf17;
+  transition: 0.2s all linear;
+}
+
+.yBG.alt-color {
+  background-color: white;
 }
 
 .bBordBott {
@@ -431,6 +441,21 @@ aside {
   padding: 8px 16px;
   background-color: #f2f2f2;
   border-radius: 10px;
+}
+
+.lastlink {
+  padding: 24px 0;
+}
+
+.lastlinkMargin {
+  margin-right: 26px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 14px;
+  color: #6b6b6b;
+  line-height: 20px;
 }
 /*pseudo classi */
 
